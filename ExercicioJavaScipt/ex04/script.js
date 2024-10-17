@@ -21,8 +21,14 @@ function contar() {
 
     res.innerHTML = ''
 
-    for(let i = ini; i <= fim; i += pas){
-        res.innerHTML += `${i} 👉  `
+    if(ini < fim){
+        for(let i = ini; i <= fim; i += pas){
+            res.innerHTML += `${i} 👉  `
+        }
+    } else if (ini > fim){
+        for(let i = ini; i >= fim; i -= pas){
+            res.innerHTML += `${i} 👉  `
+        } 
     }
     res.innerHTML += `🏁`
 
