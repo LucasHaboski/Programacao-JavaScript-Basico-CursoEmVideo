@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04 - CursoEmVideo JS</title>
+    <style>
+        body {
+            background-color: lightgrey;
+            color: black;
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Maldição livrada com sucesso!</p>
+    <script>
+        // Number.parseInt tranforma de string para inteiro
+        // Number.parseFloat tranforma de string para float
+        // String() tranforma numero para string
+        // .toString() mesma coisa
+
+        // Alertas simples de navegador 
+        var n1 = Number(window.prompt('Digite um numero:'))
+        var n2 = Number(window.prompt('Digite outro numero: '))
+        var s = n1 + n2
+        window.alert(`A soma dos valores ${n1} e ${n2} é: ${s}`)//print com placeholder
+    </script>
+</body>
+</html>
