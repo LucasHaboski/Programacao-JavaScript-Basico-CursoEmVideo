@@ -9,7 +9,7 @@ function contar() {
     fim = Number(fim)
     pas = Number(pas)
 
-    if (ini == '' || fim == '' || pas == '') {
+    if (ini === '' || fim === '' || pas === '') {
         window.alert('Por favor, digite algum valor nas caixas')
         return
     }
