@@ -1,8 +1,8 @@
-let num = [1 ,5 ,3 ,4]
+let num = [1 ,15 ,3 ,9]
 
-num[4] = 9
-num.push(7) // adiciona no ultimo elemento
-num.sort()
+num[4] = 20
+num.push(17) // adiciona no ultimo elemento
+num.sort((a,b) => a - b) //garante que os numeros sejam ordenados corretamente, Se a for menor que b, a função retorna um valor negativo, iguais retorna 0 e se a > b retorna um positivo
 
 console.log(`nosso vetor é: ${num}`)
 console.log(`o vetor ter ${num.length} posições`)
